@@ -17,7 +17,7 @@ const SelectorTag: React.FC<SelectorTagProps> = ({ tags, onFilter }) => {
   };
 
   return (
-    <div className="pb-6 w-1/2 flex flex-wrap gap-2">
+    <div className="px-4 sm:pb-6 w-full sm:w-1/2 flex flex-wrap gap-2">
       {tags.map((tag) => (
         <button
           key={tag}

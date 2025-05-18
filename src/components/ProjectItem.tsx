@@ -24,10 +24,10 @@ export const Project = ({
   return (
     <>
       <TimePoint />
-      <div className="bg-gray-800 w-min px-10 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 relative">
+      <div className="bg-gray-800 w-min mt-4 px-10 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4 relative">
         <TimeProject>{time}</TimeProject>
         <div className="flex max-sm:flex-col">
-          <div className="flex flex-col w-84 mr-8">
+          <div className="flex flex-col w-84 mr-8 max-sm:w-fit">
             <TitleProject>{title}</TitleProject>
             <div className="flex gap-2 my-1 mg-2 w-full flex-wrap">
               {tags
