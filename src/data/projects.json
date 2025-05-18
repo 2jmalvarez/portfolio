@@ -1,0 +1,88 @@
+[
+  {
+    "time": "Dic 2023 a Jun. 2024",
+    "title": "Horus - Visor de documentos clínicos",
+    "description": "Horus es una solución innovadora para unificar y visualizar la documentación clínica de pacientes en el sanatorio. Diseñado para médicos, administrativos y también para que los propios pacientes accedan de forma segura a su historial, el sistema se basa en una arquitectura de microservicios REST reutilizable. Entre sus funciones principales se destacan: generación de PDFs clínicos completos, búsqueda eficiente de pacientes, unificación de datos clínicos dispersos, filtrado por categorías y profesionales, visualización cronológica de eventos, y auditoría de accesos. Además, transforma información histórica proveniente de una base MUMPS-Cache no estructurada y la almacena en PostgreSQL. Integra también un sistema de unificación de personas, consolidando múltiples registros en una sola fuente confiable. Horus mejora la eficiencia, accesibilidad y calidad de la información clínica.",
+    "name": "Horus",
+    "tags": ["React", "Typescript", "Node", "PostgresSQL", "Express"],
+    "images": [
+      "proyectos/Horus-1.png",
+      "proyectos/Horus-2.png",
+      "proyectos/Horus-3.png",
+      "proyectos/Horus-4.png",
+      "proyectos/Horus-5.png",
+      "proyectos/Horus-6.png"
+    ]
+  },
+  {
+    "time": "Mar. 2023 a Oct. 2023",
+    "title": "CCO - Gestión integral de camas",
+    "description": "El proyecto CCO es una solución avanzada para la gestión integral de camas en un sanatorio. Permite visualizar en tiempo real la disponibilidad, limpieza y estado de mantenimiento de cada cama. Basado en una arquitectura de microservicios REST, se integra fácilmente con otros sistemas del sanatorio. Su núcleo es una tabla central con más de 60 columnas que almacenan datos clave sobre cada cama. Incluye búsqueda por etiquetas, configuración personalizada según el perfil del usuario y generación de códigos QR para facilitar tareas de limpieza, mantenimiento y traslados. Además, cuenta con un scheduler backend que centraliza y actualiza información desde múltiples fuentes. CCO optimiza la gestión de camas y mejora la eficiencia operativa del sanatorio.",
+    "name": "CCO",
+    "tags": ["React", "MySQL", "Node", "Express", "Typescript"],
+    "images": [
+      "proyectos/CCO-1.png",
+      "proyectos/CCO-2.png",
+      "proyectos/CCO-3.png",
+      "proyectos/CCO-4.png",
+      "proyectos/CCO-5.png",
+      "proyectos/CCO-6.png",
+      "proyectos/CCO-7.png"
+    ]
+  },
+  {
+    "time": "Ene 2023 a Mar. 2023",
+    "title": "GDR - Gestión de documentación respaldatoria para facturación",
+    "description": "GDR es una herramienta diseñada para facilitar la búsqueda de documentación respaldatoria asociada a facturas en un entorno médico, utilizando datos del sistema de historia clínica. Cuenta con una interfaz que permite buscar y ordenar fácilmente los tickets generados, y ofrece la posibilidad de agrupar los documentos relevantes en archivos ZIP personalizados. Estos archivos se organizan según la entidad financiadora correspondiente, lo que mejora la accesibilidad, la organización y la transparencia en la gestión financiera del sanatorio.",
+    "name": "gdr",
+    "tags": ["Typescript", "Node", "MySQL", "Oracle"],
+    "images": [
+      "proyectos/gdr-1.png",
+      "proyectos/gdr-2.png",
+      "proyectos/gdr-3.png",
+      "proyectos/gdr-4.png"
+    ]
+  },
+  {
+    "time": "Jul. 2022 a Sep. 2022",
+    "title": "ESAVI - Adverse events attributable to vaccination and immunization",
+    "description": "Este proyecto consistió en la mejora y resolución de errores del sistema ESAVI, una plataforma web destinada al registro de eventos adversos relacionados con vacunas. Durante tres meses de trabajo intensivo, se solucionaron 69 incidencias en el frontend, muchas de las cuales requerían también ajustes en el backend. El proceso fue coordinado por una persona encargada de organizar y priorizar los tickets, además de facilitar la comunicación con los equipos involucrados. El resultado fue un sistema más sólido y funcional.",
+    "tags": ["Typescript ", "Angular", "Java", "Oracle"],
+    "name": "esavi",
+    "images": ["proyectos/esavi-1.png"]
+  },
+  {
+    "time": "May. 2022 a Jul. 2022",
+    "title": "Origen - Concurso de nombres",
+    "description": "Este sistema fue desarrollado para facilitar la elección del nombre del software de historia clínica del sanatorio. Organizado en fases bien definidas a través de una tabla estructurada en base de datos, el proceso comienza con una cuenta regresiva (Fase 0), seguida por una etapa de propuestas de nombres por parte del personal (Fase 1). Luego, los usuarios pueden votar hasta tres opciones (Fase 2). Finalmente, en la Fase 4, se revelan los nombres ganadores junto a quienes los propusieron, asegurando un proceso participativo y transparente.",
+    "name": "origen",
+    "tags": ["JavaScript ", "Node", "MySQL", "Express"],
+    "images": [
+      "proyectos/origen-8.png",
+      "proyectos/origen-1.png",
+      "proyectos/origen-2.png",
+      "proyectos/origen-3.png",
+      "proyectos/origen-4.png",
+      "proyectos/origen-5.png",
+      "proyectos/origen-6.png",
+      "proyectos/origen-7.png"
+    ]
+  },
+
+  {
+    "time": "Jun. 2021 a Abr. 2022",
+    "title": "Epsilon - Integración de CIE-11 en certificados de defunción",
+    "description": "Epsilon es una aplicación desarrollada con React, Node.js, Express y MySQL, creada para demostrar la viabilidad de integrar el estándar internacional CIE-11 (Clasificación Internacional de Enfermedades) en certificados de defunción. El sistema permite buscar, seleccionar y codificar causas de muerte siguiendo la estructura de CIE-11, facilitando su adopción en entornos de salud digital. Esta prueba de concepto apunta a mejorar la precisión y estandarización de los datos clínicos en registros vitales.",
+    "name": "epsilon",
+    "tags": ["JavaScript", "Node", "MySQL", "Express"],
+    "images": ["proyectos/epsilon-1.png", "proyectos/epsilon-2.png"]
+  },
+  {
+    "time": "Jun. 2014 a Dic. 2014",
+    "title": "Simulador C++ para Brazo Robótico con QT",
+    "description": "Este proyecto de escritorio fue desarrollado en C++ utilizando el framework QT. El sistema permite simular y controlar en tiempo real un brazo robótico impreso en 3D, comunicándose mediante puerto serie con una placa LPCXpresso encargada de gestionar los motores. El simulador cuenta con una interfaz gráfica interactiva que permite ajustar individualmente la posición del codo, muñeca, mano y cada dedo, así como enviar comandos predefinidos como 'señalar', 'ok' y 'pistolita'. También ofrece visualización 3D del brazo, funciones de rotación y movimiento de cámara, y modos de operación como 'modo fluido'. El objetivo principal fue facilitar el desarrollo y prueba de movimientos del brazo robótico sin necesidad de intervención física directa.",
+    "name": "simulador_c++",
+    "tags": ["C++", "Desktop"],
+    "images": ["proyectos/simulador_c++.png"]
+  }
+]
