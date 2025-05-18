@@ -45,7 +45,7 @@ export const Project = ({
             </div>
             <DescriptionProject>{description}</DescriptionProject>
           </div>
-          <div>
+          <div className="my-auto">
             <ProjectImages images={images} />
           </div>
         </div>

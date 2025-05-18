@@ -1,6 +1,5 @@
 import Autoplay from "embla-carousel-autoplay";
 import { v4 } from "uuid";
-import { Card, CardContent } from "./ui/card";
 import {
   Carousel,
   CarouselContent,
@@ -8,6 +7,7 @@ import {
   CarouselPrevious,
   CarouselNext,
 } from "./ui/carousel";
+import { ModalImages } from "./ModalImages";
 
 export const ProjectImages = ({ images }: { images?: string[] }) => {
   return (
@@ -20,21 +20,27 @@ export const ProjectImages = ({ images }: { images?: string[] }) => {
           }),
         ]}
       >
-        <CarouselContent>
-          {images?.map((srcImage) => (
-            <CarouselItem key={v4()}>
-              <div className="p-1">
-                <Card>
-                  <CardContent className="flex aspect-square items-center justify-center p-6 ">
-                    <img src={srcImage} alt={v4()} />
-                  </CardContent>
-                </Card>
-              </div>
-            </CarouselItem>
-          ))}
-        </CarouselContent>
-        <CarouselPrevious className="top-1/2 -left-8" />
-        <CarouselNext className="top-1/2 -right-8" />
+        <ModalImages images={images}>
+          <CarouselContent>
+            {images?.map((srcImage) => (
+              <CarouselItem key={v4()}>
+                <img
+                  src={srcImage}
+                  alt={v4()}
+                  className="w-full h-full flex items-center justify-center"
+                />
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+        </ModalImages>
+        <CarouselPrevious
+          variant={"ghost"}
+          className="top-1/2 -left-8 text-amber-50"
+        />
+        <CarouselNext
+          variant={"ghost"}
+          className="top-1/2 -right-8 text-amber-50"
+        />
       </Carousel>
     )
   );

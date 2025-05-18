@@ -84,7 +84,22 @@
     "images": ["proyectos/epsilon-1.png", "proyectos/epsilon-2.png"]
   },
   {
-    "time": "Dic. 2019 a Abr. 2020",
+    "time": "Nov. 2019 a Nov. 2020",
+    "title": "Mozaik - Plataforma educativa basada en formularios",
+    "description": "Mozaik es una plataforma web orientada al ámbito educativo, que en su momento ofrecía formularios y herramientas alineadas con el sistema educativo canadiense. A través de una consultora, formé parte del equipo de desarrollo, donde trabajé en la resolución de bugs y en la incorporación de nuevas funcionalidades, incluyendo la implementación de la pantalla de perfil de usuario. El sistema estaba accesible a través de https://www.mozaik.global/guest-landing-page y se enfocaba en mejorar la gestión y personalización de la experiencia educativa digital.",
+    "name": "mozaik",
+    "tags": [
+      "Typescript",
+      "Node",
+      "PostgresSQL",
+      "Express",
+      "React",
+      "Dockers"
+    ],
+    "images": ["proyectos/mozaik.png"]
+  },
+  {
+    "time": "Ene. 2019 a Jun. 2019",
     "title": "SasOptimo - Sas code generator",
     "description": "Sasoptimo es una aplicación de escritorio creada con Python, diseñada para agilizar la generación de scripts de código SQL SAS, al mismo tiempo que se adhiere a una estrategia meticulosa para mejorar la eficiencia de la ejecución de consultas. Además, permite a los usuarios producir sin esfuerzo scripts SQL SAS a partir de ajustes predefinidos, lo que permite complejas referencias cruzadas de extensos conjuntos de datos adaptados a los requisitos individuales. Esta aplicación es una poderosa herramienta para optimizar las secuencias de comandos SQL SAS y realizar tareas complejas de análisis de datos.",
     "name": "sasoptimo",
