@@ -54,7 +54,7 @@
     "time": "Jul. 2022 a Sep. 2022",
     "title": "ESAVI - Evento Supuestamente Atribuible a la Vacunación o Inmunización",
     "description": "Este proyecto consistió en la mejora y resolución de errores del sistema ESAVI, una plataforma web destinada al registro de eventos adversos relacionados con vacunas. Durante tres meses de trabajo intensivo, se solucionaron 69 incidencias en el frontend, muchas de las cuales requerían también ajustes en el backend. El proceso fue coordinado por una persona encargada de organizar y priorizar los tickets, además de facilitar la comunicación con los equipos involucrados. El resultado fue un sistema más sólido y funcional.",
-    "tags": ["Typescript ", "Angular", "Java", "Oracle", "Poncho"],
+    "tags": ["Typescript", "Angular", "Java", "Oracle", "Poncho"],
     "name": "esavi",
     "images": ["proyectos/esavi-1.png"]
   },
@@ -63,7 +63,7 @@
     "title": "Origen - Concurso de nombres",
     "description": "Este sistema fue desarrollado para facilitar la elección del nombre del software de historia clínica del sanatorio. Organizado en fases bien definidas a través de una tabla estructurada en base de datos, el proceso comienza con una cuenta regresiva (Fase 0), seguida por una etapa de propuestas de nombres por parte del personal (Fase 1). Luego, los usuarios pueden votar hasta tres opciones (Fase 2). Finalmente, en la Fase 4, se revelan los nombres ganadores junto a quienes los propusieron, asegurando un proceso participativo y transparente.",
     "name": "origen",
-    "tags": ["JavaScript ", "Node", "MySQL", "Express", "React", "Material UI"],
+    "tags": ["JavaScript", "Node", "MySQL", "Express", "React", "Material UI"],
     "images": [
       "proyectos/origen-8.png",
       "proyectos/origen-1.png",

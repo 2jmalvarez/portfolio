@@ -12,12 +12,14 @@ export const Project = ({
   time,
   images,
   tags,
+  tagSelected,
 }: {
   title: string;
   description: string;
   time: string;
   images?: string[];
   tags: string[];
+  tagSelected: string[];
 }) => {
   return (
     <>
@@ -31,7 +33,14 @@ export const Project = ({
               {tags
                 .toSorted((a, b) => a.localeCompare(b))
                 .map((tag) => (
-                  <Badge key={v4()}>{tag}</Badge>
+                  <Badge
+                    key={v4()}
+                    variant={
+                      tagSelected.includes(tag) ? "secondary" : "default"
+                    }
+                  >
+                    {tag}
+                  </Badge>
                 ))}
             </div>
             <DescriptionProject>{description}</DescriptionProject>
