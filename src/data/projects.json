@@ -1,5 +1,61 @@
 [
   {
+    "time": "Jun 2024 a Actualidad",
+    "title": "Sistema de Diseño (DS)",
+    "description": "Se desarrolló un sistema de diseño basado en los principios de Atomic Design, aplicando los patrones Composite y DRY para garantizar la escalabilidad y reutilización de componentes. La documentación y visualización se gestionó con Storybook, siguiendo los lineamientos definidos por el equipo de Ecosistemas Digitales. El flujo de trabajo incluye la integración con Chromatic para verificar visualmente los componentes y detectar cambios no intencionados. La librería se empaquetó y desplegó en un registro privado mediante Verdaccio, permitiendo su uso en distintos proyectos de manera centralizada y controlada.",
+    "name": "provincia-ds",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Tailwind",
+      "Storybook",
+      "Chromatic",
+      "Verdaccio"
+    ],
+    "images": [
+      "proyectos/provincia-ds-1.png",
+      "proyectos/provincia-ds-2.png",
+      "proyectos/provincia-ds-3.png",
+      "proyectos/provincia-ds-4.png"
+    ]
+  },
+  {
+    "time": "Jun 2024 a Actualidad",
+    "title": "Nueva Web de Preventores para ART con Design System Integrado",
+    "description": "Se desarrolló una nueva aplicación web destinada a los preventores de una Aseguradora de Riesgos del Trabajo (ART), con el objetivo de modernizar la experiencia de uso y mejorar la eficiencia operativa. El proyecto incorporó el Design System institucional, asegurando coherencia visual, accesibilidad y reutilización de componentes en toda la interfaz. La solución ofrece una experiencia unificada, adaptable a distintos dispositivos, y facilita la gestión de actividades preventivas en el ámbito laboral.",
+    "name": "preventores",
+    "tags": ["React", "JavaScript", "Node", "Oracle", "Express", "Tailwind"],
+    "images": [
+      "proyectos/preventores-1.png",
+      "proyectos/preventores-2.png",
+      "proyectos/preventores-3.png"
+    ]
+  },
+  {
+    "time": "Nov 2024 a Dic. 2024",
+    "title": "Challenge - Sistema de Gestión de Observaciones Clínicas con FHIR",
+    "description": "Este proyecto fue desarrollado como parte de un challenge técnico con una duración de dos semanas. Se trata de una aplicación web para gestionar observaciones clínicas (como signos vitales), utilizando el estándar FHIR para garantizar la interoperabilidad con otros sistemas de salud. La solución incluye un backend que gestiona los recursos FHIR y un frontend con una interfaz intuitiva que permite visualizar, crear, editar y eliminar observaciones clínicas. Se verifica por medio de validator.fhir.org que las observaciones generadas cumplen con el estándar FHIR. El sistema está diseñado para ser escalable y adaptable a diferentes entornos de salud, facilitando la integración con otros sistemas y mejorando la gestión de datos clínicos.",
+    "name": "soc",
+    "tags": [
+      "React",
+      "Typescript",
+      "Node",
+      "PostgresSQL",
+      "Express",
+      "Tailwind",
+      "FHIR",
+      "NextJS"
+    ],
+    "images": [
+      "proyectos/soc-1.png",
+      "proyectos/soc-2.png",
+      "proyectos/soc-3.png",
+      "proyectos/soc-4.png",
+      "proyectos/soc-5.png",
+      "proyectos/soc-6.png"
+    ]
+  },
+  {
     "time": "Dic 2023 a Jun. 2024",
     "title": "Horus - Visor de documentos clínicos",
     "description": "Horus es una solución innovadora para unificar y visualizar la documentación clínica de pacientes en el sanatorio. Diseñado para médicos, administrativos y también para que los propios pacientes accedan de forma segura a su historial, el sistema se basa en una arquitectura de microservicios REST reutilizable. Entre sus funciones principales se destacan: generación de PDFs clínicos completos, búsqueda eficiente de pacientes, unificación de datos clínicos dispersos, filtrado por categorías y profesionales, visualización cronológica de eventos, y auditoría de accesos. Además, transforma información histórica proveniente de una base MUMPS-Cache no estructurada y la almacena en PostgreSQL. Integra también un sistema de unificación de personas, consolidando múltiples registros en una sola fuente confiable. Horus mejora la eficiencia, accesibilidad y calidad de la información clínica.",
@@ -94,7 +150,8 @@
       "PostgresSQL",
       "Express",
       "React",
-      "Dockers"
+      "Dockers",
+      "NextJS"
     ],
     "images": ["proyectos/mozaik.png"]
   },
