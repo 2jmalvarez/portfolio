@@ -56,6 +56,26 @@
     ]
   },
   {
+    "time": "Ene. 2024 a Oct. 2024",
+    "title": "Lilisfood - Plataforma de pedidos de viandas escolares",
+    "description": "Lilisfood es un sistema web diseñado para que madres, padres y tutores de estudiantes en escuelas privadas puedan solicitar viandas diarias. La plataforma permite elegir el plato principal, la bebida y el postre según un menú preestablecido, y realizar el pago de los pedidos de forma diaria o mensual. Su objetivo es facilitar la gestión alimentaria escolar, brindando comodidad y opciones personalizadas para cada alumno.",
+    "name": "lilisfood",
+    "tags": [
+      "React",
+      "Typescript",
+      "Node",
+      "PostgresSQL",
+      "Express",
+      "Tailwind"
+    ],
+    "images": [
+      "proyectos/lilisfood-1.png",
+      "proyectos/lilisfood-2.png",
+      "proyectos/lilisfood-3.png",
+      "proyectos/lilisfood-4.png"
+    ]
+  },
+  {
     "time": "Dic 2023 a Jun. 2024",
     "title": "Horus - Visor de documentos clínicos",
     "description": "Horus es una solución innovadora para unificar y visualizar la documentación clínica de pacientes en el sanatorio. Diseñado para médicos, administrativos y también para que los propios pacientes accedan de forma segura a su historial, el sistema se basa en una arquitectura de microservicios REST reutilizable. Entre sus funciones principales se destacan: generación de PDFs clínicos completos, búsqueda eficiente de pacientes, unificación de datos clínicos dispersos, filtrado por categorías y profesionales, visualización cronológica de eventos, y auditoría de accesos. Además, transforma información histórica proveniente de una base MUMPS-Cache no estructurada y la almacena en PostgreSQL. Integra también un sistema de unificación de personas, consolidando múltiples registros en una sola fuente confiable. Horus mejora la eficiencia, accesibilidad y calidad de la información clínica.",
