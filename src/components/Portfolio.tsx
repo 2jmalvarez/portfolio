@@ -8,7 +8,7 @@ import { useState } from "react";
 export const Portfolio = () => {
   const [tagSelected, setTagSelected] = useState<string[]>([]);
   return (
-    <Background>
+    <Background matrix>
       <Name>Juan Manuel Alvarez</Name>
       <SelectorTag
         tags={[

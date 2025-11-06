@@ -8,7 +8,7 @@ interface SelectorTagProps {
 
 const SelectorTag: React.FC<SelectorTagProps> = ({ tags, onFilter }) => {
   const [selected, setSelected] = useState<string[]>([]);
-  console.log({ tags });
+
   const handleClick = (tag: string) => {
     const newSelected = selected.includes(tag)
       ? selected.filter((s) => s !== tag)
@@ -18,7 +18,7 @@ const SelectorTag: React.FC<SelectorTagProps> = ({ tags, onFilter }) => {
   };
 
   return (
-    <div className="px-4 sm:pb-6 w-full sm:w-1/2 flex flex-wrap gap-2">
+    <div className="mx-4 sm:pb-6 w-full sm:w-1/2 flex flex-wrap gap-2 bg-gray-800 rounded-lg shadow p-2 justify-center sm:justify-start">
       {tags.map((tag) => (
         <button key={tag} onClick={() => handleClick(tag)}>
           <Badge
