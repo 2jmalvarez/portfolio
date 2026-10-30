@@ -7,6 +7,7 @@ export const Name = ({ children }: { children: ReactNode }) => {
       className="m-4 flex flex-col justify-center text-white pb-2 text-[34px] font-bold tracking-tight first:mt-0 bg-transparent border-none cursor-pointer focus:outline-none"
       href="https://www.linkedin.com/in/juan-manuel-alvarez-/"
       target="_blank"
+      rel="noopener noreferrer"
       aria-label="Open LinkedIn profile"
       type="button"
     >

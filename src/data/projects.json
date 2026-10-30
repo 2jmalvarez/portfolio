@@ -1,5 +1,17 @@
 [
   {
+    "time": "Ago. 2026 a Actualidad",
+    "title": "OpenEditorCode (OEC) - Editor de proyectos para terminal",
+    "description": "Desarrollo de un editor de proyectos de código abierto para terminal, construido con TypeScript, Bun y OpenTUI para Windows y Linux. La aplicación funciona de manera autónoma, sin depender de un servidor, e integra un explorador de archivos, edición en múltiples pestañas, búsqueda en el proyecto y previsualización de Markdown e imágenes. Incluye herramientas Git para revisar diferencias, preparar cambios, crear commits y consultar el historial. El proyecto también incorpora un plugin opcional para explorar, editar y revisar archivos dentro de OpenCode, y un sitio web bilingüe desarrollado con Astro que reúne la presentación del producto, las guías de instalación y la documentación de uso.",
+    "name": "openeditorcode",
+    "tags": ["Typescript", "Bun", "OpenTUI", "Git", "Astro"],
+    "images": [
+      "proyectos/openeditorcode-1.png",
+      "proyectos/openeditorcode-2.png",
+      "proyectos/openeditorcode-3.png"
+    ]
+  },
+  {
     "time": "Jun 2024 a Actualidad",
     "title": "Sistema de Diseño (DS)",
     "description": "Se desarrolló un sistema de diseño basado en los principios de Atomic Design, aplicando los patrones Composite y DRY para garantizar la escalabilidad y reutilización de componentes. La documentación y visualización se gestionó con Storybook, siguiendo los lineamientos definidos por el equipo de Ecosistemas Digitales. El flujo de trabajo incluye la integración con Chromatic para verificar visualmente los componentes y detectar cambios no intencionados. La librería se empaquetó y desplegó en un registro privado mediante Verdaccio, permitiendo su uso en distintos proyectos de manera centralizada y controlada.",
