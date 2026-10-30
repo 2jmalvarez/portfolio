@@ -45,6 +45,8 @@ export function MatrixBackground({
 
     const columns = Math.floor(width / 20) + 1;
     const yPositions = Array.from({ length: columns }).fill(0);
+    let wordX = xPosicionPalabra;
+    let wordY = yPosicionPalabra;
 
     context.fillStyle = background;
     context.fillRect(0, 0, width, height);
@@ -67,30 +69,30 @@ export function MatrixBackground({
         const x = index * 20;
 
         if (iniPalabras) {
-          yPosicionPalabra = 80;
-          xPosicionPalabra = 20;
+          wordY = 80;
+          wordX = 20;
 
           palabras.forEach((palabra, i) => {
-            if (x == xPosicionPalabra + i * 20)
+            if (x == wordX + i * 20)
               for (let Index = 0; Index < palabra.length; Index++)
-                if (y == yPosicionPalabra + Index * 20) {
+                if (y == wordY + Index * 20) {
                   text = palabra[Index];
                 }
           });
         } else {
           if (new Date().getSeconds() % 5 == 0) {
             palabras.forEach((palabra, i) => {
-              if (x == xPosicionPalabra + i * 20)
+              if (x == wordX + i * 20)
                 for (let Index = 0; Index < palabra.length; Index++)
-                  if (y == yPosicionPalabra + Index * 20) {
+                  if (y == wordY + Index * 20) {
                     text = palabra[Index];
                   }
             });
           }
-          xPosicionPalabra =
+          wordX =
             new Date().getSeconds() % 15 == 0
-              ? (xPosicionPalabra + Math.floor(Math.random() * 10) * 20) % 1200
-              : xPosicionPalabra;
+              ? (wordX + Math.floor(Math.random() * 10) * 20) % 1200
+              : wordX;
         }
 
         context.fillText(text, x, y);
@@ -107,7 +109,15 @@ export function MatrixBackground({
     return () => {
       clearInterval(interval);
     };
-  }, [canvas, timeout, palabras]);
+  }, [
+    timeout,
+    palabras,
+    background,
+    color,
+    iniPalabras,
+    xPosicionPalabra,
+    yPosicionPalabra,
+  ]);
 
   return (
     <div

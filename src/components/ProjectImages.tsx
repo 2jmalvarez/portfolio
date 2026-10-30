@@ -1,5 +1,4 @@
 import Autoplay from "embla-carousel-autoplay";
-import { v4 } from "uuid";
 import {
   Carousel,
   CarouselContent,
@@ -22,11 +21,11 @@ export const ProjectImages = ({ images }: { images?: string[] }) => {
       >
         <ModalImages images={images}>
           <CarouselContent>
-            {images?.map((srcImage) => (
-              <CarouselItem key={v4()}>
+            {images?.map((srcImage, index) => (
+              <CarouselItem key={srcImage}>
                 <img
                   src={srcImage}
-                  alt={v4()}
+                  alt={`Captura del proyecto ${index + 1}`}
                   className="w-full h-full flex items-center justify-center"
                 />
               </CarouselItem>

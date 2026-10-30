@@ -1,4 +1,3 @@
-import { v4 } from "uuid";
 import { DescriptionProject } from "./DescriptionProject";
 import { ProjectImages } from "./ProjectImages";
 import { TimePoint } from "./TimePoint";
@@ -21,6 +20,8 @@ export const Project = ({
   tags: string[];
   tagSelected: string[];
 }) => {
+  const selectedTags = new Set(tagSelected);
+
   return (
     <>
       <TimePoint />
@@ -30,13 +31,13 @@ export const Project = ({
           <div className="flex flex-col w-84 mr-8 max-sm:w-fit">
             <TitleProject>{title}</TitleProject>
             <div className="flex gap-2 my-1 mg-2 w-full flex-wrap">
-              {tags
-                .toSorted((a, b) => a.localeCompare(b))
+              {[...tags]
+                .sort((a, b) => a.localeCompare(b))
                 .map((tag) => (
                   <Badge
-                    key={v4()}
+                    key={tag}
                     variant={
-                      tagSelected.includes(tag) ? "secondary" : "default"
+                      selectedTags.has(tag) ? "secondary" : "default"
                     }
                   >
                     {tag}

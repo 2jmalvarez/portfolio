@@ -8,9 +8,10 @@ interface SelectorTagProps {
 
 const SelectorTag: React.FC<SelectorTagProps> = ({ tags, onFilter }) => {
   const [selected, setSelected] = useState<string[]>([]);
+  const selectedTags = new Set(selected);
 
   const handleClick = (tag: string) => {
-    const newSelected = selected.includes(tag)
+    const newSelected = selectedTags.has(tag)
       ? selected.filter((s) => s !== tag)
       : [...selected, tag];
     setSelected(newSelected);
@@ -22,7 +23,7 @@ const SelectorTag: React.FC<SelectorTagProps> = ({ tags, onFilter }) => {
       {tags.map((tag) => (
         <button key={tag} onClick={() => handleClick(tag)}>
           <Badge
-            variant={selected.includes(tag) ? "secondary" : "default"}
+            variant={selectedTags.has(tag) ? "secondary" : "default"}
             className="cursor-pointer"
           >
             {tag}

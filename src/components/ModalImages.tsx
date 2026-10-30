@@ -7,7 +7,6 @@ import {
   CarouselPrevious,
 } from "./ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
-import { v4 } from "uuid";
 
 export function ModalImages({
   images,
@@ -31,10 +30,10 @@ export function ModalImages({
           ]}
         >
           <CarouselContent className="mr-4 ">
-            {images?.map((srcImage) => (
-              <CarouselItem key={v4()}>
+            {images?.map((srcImage, index) => (
+              <CarouselItem key={srcImage}>
                 <div className="w-full h-full flex items-center justify-center">
-                  <img src={srcImage} alt={v4()} />
+                  <img src={srcImage} alt={`Captura del proyecto ${index + 1}`} />
                 </div>
               </CarouselItem>
             ))}

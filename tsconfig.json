@@ -9,6 +9,7 @@
       "@/*": ["./src/*"]
     },
     "strict": true,
+    "noEmit": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true

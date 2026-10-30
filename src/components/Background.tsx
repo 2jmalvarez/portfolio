@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 import { MatrixBackground } from "./MatrixBackground";
 import { cn } from "@/lib/utils";
 
