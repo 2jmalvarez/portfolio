@@ -4,6 +4,7 @@
     "title": "OpenEditorCode (OEC) - Editor de proyectos para terminal",
     "description": "Desarrollo de un editor de proyectos de código abierto para terminal, construido con TypeScript, Bun y OpenTUI para Windows y Linux. La aplicación funciona de manera autónoma, sin depender de un servidor, e integra un explorador de archivos, edición en múltiples pestañas, búsqueda en el proyecto y previsualización de Markdown e imágenes. Incluye herramientas Git para revisar diferencias, preparar cambios, crear commits y consultar el historial. El proyecto también incorpora un plugin opcional para explorar, editar y revisar archivos dentro de OpenCode, y un sitio web bilingüe desarrollado con Astro que reúne la presentación del producto, las guías de instalación y la documentación de uso.",
     "name": "openeditorcode",
+    "website": "https://openeditorcode.dev",
     "tags": ["Typescript", "Bun", "OpenTUI", "Git", "Astro"],
     "images": [
       "proyectos/openeditorcode-1.png",

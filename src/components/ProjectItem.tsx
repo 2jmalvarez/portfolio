@@ -12,6 +12,7 @@ export const Project = ({
   images,
   tags,
   tagSelected,
+  website,
 }: {
   title: string;
   description: string;
@@ -19,6 +20,7 @@ export const Project = ({
   images?: string[];
   tags: string[];
   tagSelected: string[];
+  website?: string;
 }) => {
   const selectedTags = new Set(tagSelected);
 
@@ -45,6 +47,16 @@ export const Project = ({
                 ))}
             </div>
             <DescriptionProject>{description}</DescriptionProject>
+            {website && (
+              <a
+                href={website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sky-300 underline underline-offset-4 hover:text-sky-200"
+              >
+                {website.replace(/^https?:\/\//, "")} ↗
+              </a>
+            )}
           </div>
           <div className="my-auto">
             <ProjectImages images={images} />

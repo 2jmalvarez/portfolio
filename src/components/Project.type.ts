@@ -5,4 +5,5 @@ export type ProjectData = {
   images?: string[];
   tags: string[];
   name?: string;
+  website?: string;
 };

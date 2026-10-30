@@ -8,13 +8,15 @@ export const Name = ({ children }: { children: ReactNode }) => {
       href="https://www.linkedin.com/in/juan-manuel-alvarez-/"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Open LinkedIn profile"
-      type="button"
+      aria-label="Ver perfil de Juan Manuel Alvarez en LinkedIn"
     >
       <div className="flex justify-center">
         <Logo />
       </div>
       {children}
+      <span className="mt-1 text-center text-base font-normal text-sky-300 underline underline-offset-4">
+        LinkedIn ↗
+      </span>
     </a>
   );
 };
