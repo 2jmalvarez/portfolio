@@ -121,6 +121,7 @@ export function MatrixBackground({
 
   return (
     <div
+      className="portfolio-matrix"
       style={{
         background,
         overflow: "hidden",

@@ -19,7 +19,7 @@ const SelectorTag: React.FC<SelectorTagProps> = ({ tags, onFilter }) => {
   };
 
   return (
-    <div className="mx-4 sm:pb-6 w-full sm:w-1/2 flex flex-wrap gap-2 bg-gray-800 rounded-lg shadow p-2 justify-center sm:justify-start">
+    <div className="portfolio-technologies mx-4 sm:pb-6 w-full sm:w-1/2 flex flex-wrap gap-2 bg-gray-800 rounded-lg shadow p-2 justify-center sm:justify-start">
       {tags.map((tag) => (
         <button key={tag} onClick={() => handleClick(tag)}>
           <Badge

@@ -11,7 +11,7 @@ export const Background = ({
 }) => (
   <div
     className={cn(
-      "flex flex-col w-full h-full items-center justify-center",
+      "portfolio-layout flex flex-col w-full h-full items-center justify-center",
       !matrix && "bg-gradient-to-tr from-[#23272e] via-[#3a3f47] to-[#40c96e]"
     )}
   >
